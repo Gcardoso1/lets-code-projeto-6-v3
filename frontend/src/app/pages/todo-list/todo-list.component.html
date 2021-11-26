@@ -6,4 +6,5 @@
   <mat-card-content>
     <pages-todo-list-item *ngFor="let task of tasksList" [taskObj]="task"></pages-todo-list-item>
   </mat-card-content>
+  <button (click)="criarTask()" mat-raised-button color="primary">Criar Nova Task</button>
 </mat-card>
