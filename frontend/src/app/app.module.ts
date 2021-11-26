@@ -33,6 +33,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  exports: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

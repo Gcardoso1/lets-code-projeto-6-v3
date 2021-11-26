@@ -26,6 +26,7 @@
 <div class="example-container">
     <mat-card>
         <h2>Criar Task</h2>
+        <div appMarcaTexto corDeFundo='green'>teste</div>
         <form class="form-content" *ngIf="loginForm" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
         <mat-form-field appearance="outline" class="form-element">
             <mat-label>Titulo</mat-label>
@@ -52,9 +53,9 @@
             </mat-radio-group>-->
                 <mat-label>Selecione a prioridade</mat-label>
                 <mat-select formControlName="prioridade">
-                  <mat-option value="Low">Low</mat-option>
-                  <mat-option value="Medium">Medium</mat-option>
-                  <mat-option value="High">High</mat-option>
+                  <mat-option value="LOW">LOW</mat-option>
+                  <mat-option value="MEDIUM">MEDIUM</mat-option>
+                  <mat-option value="HIGH">HIGH</mat-option>
                 </mat-select>
         </mat-form-field>
     

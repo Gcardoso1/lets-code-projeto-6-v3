@@ -41,4 +41,12 @@ export class TodoListItemComponent implements OnInit {
     }
   }
 
+  editarTask(){
+
+  }
+
+  deletarTask(){
+    
+  }
+
 }

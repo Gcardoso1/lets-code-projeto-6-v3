@@ -14,4 +14,6 @@
     <li>Data de Entrega: {{ task.dueDate }}</li>
     <li>Prioridade: {{ task.priority }}</li>
   </ul>
+  <button (click)="editarTask()" mat-raised-button color="primary">Editar</button>
+  <button (click)="deletarTask()" mat-raised-button color="warn">Deletar</button>
 </mat-expansion-panel>
